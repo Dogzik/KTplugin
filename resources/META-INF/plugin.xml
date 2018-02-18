@@ -1,0 +1,18 @@
+<idea-plugin>
+  <id>KTstatistics</id>
+  <name>KTstatistics</name>
+  <version>1.0</version>
+  <vendor>Just me</vendor>
+
+  <idea-version since-build="173.0"/>
+
+  <extensions defaultExtensionNs="com.intellij">
+      <toolWindow id="KTstats" icon="/icon.png" anchor="right" factoryClass="com.example.MyToolWindowFactory"/>
+  </extensions>
+
+  <actions>
+
+  </actions>
+
+</idea-plugin>
+
