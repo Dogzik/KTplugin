@@ -15,7 +15,7 @@ public class FileVisitor extends SimpleFileVisitor<Path> {
     @Override
     public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) {
         ++sources[isTest];
-        if (file.toString().matches(".+\\.kt")) {
+        if (file.toString().endsWith(".kt")) {
             ++KTSources[isTest];
         }
         return CONTINUE;
